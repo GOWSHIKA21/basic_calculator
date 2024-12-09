@@ -18,7 +18,7 @@ body{
     padding: 20px; 
     border-radius: 16px;
     background-image: none;
-    background-color: black;
+    background-color: rgb(49, 48, 48);
     box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
 
 
@@ -33,6 +33,7 @@ input{
     font-size: 40px;
     text-align: right;
     cursor: pointer;
+    color: #ffffff;
 }
 input::placeholder
 {
@@ -50,4 +51,12 @@ button{
     box-shadow: -8px -8px 15px rgba(225,225,225,0.1);
     cursor: pointer;
     
+}
+
+.equalBtn{
+    background-color: #fb7c14;
+}
+
+.operator{
+    color: #6dee0a;
 }
